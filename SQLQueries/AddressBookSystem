@@ -21,3 +21,7 @@ insert into address_book values('Rutuja','Lotake','Korochi','Ichalkaranji','Maha
 insert into address_book values('Ovi','Kulkarni','Karad','Karad','Maharashtra','416111',9876556789,'ovi@gmail.com');
 insert into address_book values('Riya','Kulkarni','Karad','Karad','Maharashtra','416111',9809809800,'riya@gmail.com');
 select * from address_book;
+
+/*UC4*/
+update address_book set emailId = 'pranali22@gmail.com' where firstname = 'Pranali';
+
