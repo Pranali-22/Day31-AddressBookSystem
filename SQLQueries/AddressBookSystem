@@ -14,3 +14,10 @@ create table address_book(
     emailId varchar(30),
     primary key(firstname)
 );
+
+/*UC3*/
+insert into address_book values('Pranali','Lotake','Korochi','Ichalkaranji','Maharashtra',416115,9090909090,'pranali@gmail.com');
+insert into address_book values('Rutuja','Lotake','Korochi','Ichalkaranji','Maharashtra','416115','9087654321','rutuja@gmail.com');
+insert into address_book values('Ovi','Kulkarni','Karad','Karad','Maharashtra','416111',9876556789,'ovi@gmail.com');
+insert into address_book values('Riya','Kulkarni','Karad','Karad','Maharashtra','416111',9809809800,'riya@gmail.com');
+select * from address_book;
