@@ -47,3 +47,7 @@ update address_book set address_book_name = 'Family Address Book', address_book_
 update address_book set address_book_name = 'Friends Address Book', address_book_type = 'Friends' where firstname = 'Ovi';
 update address_book set address_book_name = 'Professional Address Book', address_book_type = 'Profession' where firstname = 'Aaaa';
 select * from address_book  where address_book_type = 'Friends';
+
+/*UC10*/
+select address_book_type, count(*) as 'count By Type' from address_book group by address_book_type;
+
