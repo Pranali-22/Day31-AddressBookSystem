@@ -4,9 +4,9 @@ use address_book_system;
 
 /*UC2*/
 create table address_book(
-	firstname varchar(20),
+    firstname varchar(20),
     lastname varchar(20),
-	address varchar(50),
+    address varchar(50),
     city varchar(20),
     state varchar(20),
     zip char(6),
@@ -24,4 +24,7 @@ select * from address_book;
 
 /*UC4*/
 update address_book set emailId = 'pranali22@gmail.com' where firstname = 'Pranali';
+
+/*UC5*/
+delete from address_book where firstname = 'Riya';
 
